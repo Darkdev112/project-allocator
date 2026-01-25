@@ -24,3 +24,6 @@
     ├── .gitignore                
     ├── README.md
     └── requirements.txt
+
+## Architecture
+  ![Architecture](architecture.png)
