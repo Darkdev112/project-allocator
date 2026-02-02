@@ -1,0 +1,17 @@
+{
+    "id": "project_456",
+    "vector": [
+       0.0214, -0.1189, 0.3341, 0.9023, -0.4412,       
+       0.6721, -0.2298, 0.1145, 0.5582, -0.0319             
+    ],
+    "metadata": {
+      "entity_type": "project",
+      "required_role": "backend_engineer",
+      "required_seniority": "mid",
+      "required_experience_years": 2,
+      "required_skills": ["python","django","postgresql","kafka"],
+      "required_domains": ["fintech","payments"],
+      "is_active": true
+    }
+  }
+  

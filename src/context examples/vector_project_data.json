@@ -1,0 +1,10 @@
+{
+    "entity_type": "project",
+    "required_role": "Backend Engineer",
+    "required_seniority": "mid",
+    "required_experience_years": 2,
+    "required_skills": ["Python", "Django", "PostgreSQL", "Kafka"],
+    "optional_skills": ["Docker", "AWS"],
+    "required_domains": ["FinTech", "Payments"],
+    "summary": "Build and maintain high-throughput backend services for a FinTech payments platform using Python, Django, Kafka, and PostgreSQL."
+  }

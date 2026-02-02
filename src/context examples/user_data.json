@@ -1,0 +1,16 @@
+{
+    "id": "user_123",
+    "vector": [
+      0.0214, -0.1189, 0.3341, 0.9023, -0.4412,       
+      0.6721, -0.2298, 0.1145, 0.5582, -0.0319             
+    ], 
+    "metadata": {
+      "entity_type": "user",
+      "role": "backend_engineer",
+      "seniority": "mid",
+      "total_experience_years": 3,
+      "primary_skills": ["python","django","postgresql","kafka"],
+      "domains": ["fintech","apis"],
+      "is_active": true
+    }
+  }

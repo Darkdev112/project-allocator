@@ -1,0 +1,11 @@
+{
+    "entity_type": "user",
+    "role": "Backend Engineer",
+    "seniority": "mid",
+    "total_experience_years": 3,
+    "primary_skills": ["Python", "Django", "PostgreSQL", "Kafka"],
+    "secondary_skills": ["Docker", "AWS"],
+    "domains": ["FinTech", "APIs"],
+    "summary": "Backend engineer with 3 years of experience building scalable REST APIs and event-driven systems using Python, Django, PostgreSQL, and Kafka."
+}
+  
