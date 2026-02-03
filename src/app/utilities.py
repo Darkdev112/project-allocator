@@ -2,7 +2,7 @@ import json
 from langchain_community.document_loaders import PyPDFLoader
 from config import Config,ResumeResponse,ProjectResponse
 from model import get_model
-from prompt import prompt
+from prompt import prompt,summary_prompt
 
 def get_schema(entity_type):
     ResponseType = ResumeResponse if entity_type == "resume" else ProjectResponse
@@ -16,6 +16,9 @@ def get_context(doc_path,llm,entity_type):
     content = documents[0].page_content
     schema = get_schema(entity_type)
     response = llm.invoke(prompt.format(content=content, schema=schema))
-    print(json.loads(response.content))
+    summary_response = llm.invoke(summary_prompt.format(content=content))
+    response_json = json.loads(response.content)
+    response_json['summary'] = summary_response.content
+    return response_json
 
 get_context('./documents/sample_doc.pdf',get_model(),"resume")

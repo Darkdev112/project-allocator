@@ -24,16 +24,21 @@ OUTPUT JSON SCHEMA:
 Now parse the resume and return the JSON output without formatting.
 '''
 
-summary_prompt = '''You are an expert text summarization system.
-TASK:
-- Read the content provided below.
-- Generate a concise summary highlighting the key points.
-RULES:
-1. Keep the summary brief and to the point.
-2. Focus on the main ideas and essential information.
------------------------------------
-CONTENT:
+summary_prompt = '''You are an expert resume summarizer.
+
+**TASK**
+- Read the resume supplied in the placeholder `{content}`.
+- Write a single‑sentence summary that:
+  1. Lists the candidate’s main technical and soft skills.
+  2. Highlights the most relevant experience/industry domain.
+  3. Suggests a realistic future project or role the candidate could pursue.
+
+**RULES**
+1. The output must be ONE concise sentence—no line breaks, bullet points, or headings.
+2. Separate skills with commas; use a semicolon or dash to separate the “future project” clause.
+3. Keep the focus strictly on skills, experience, and the suggested next project—no filler or personal opinions.
+4. Preserve the order: **[Primary role] with [key skills]; experienced in [industry/domain]; future project: [brief idea]**.
+
+**RESUME CONTENT**
 {content}
------------------------------------
-Now generate the summary.
 '''
