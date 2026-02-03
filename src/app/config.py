@@ -7,8 +7,8 @@ load_dotenv()
 class Config:
     PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
     PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME")
-    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+    HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 
 class ResumeResponse(BaseModel):
     entity_type:Literal["user"]

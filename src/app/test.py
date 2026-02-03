@@ -38,7 +38,6 @@ dict3 = {
     "summary": "Junior backend engineer with 1 year of experience developing RESTful APIs and microservices using Node.js, Express, and MongoDB, with exposure to CI/CD and containerized deployments."
 }
 
-
 document_1 = Document(
     page_content=json.dumps(dict1)
 )
@@ -59,5 +58,25 @@ documents = [
 ]
 
 uuids = ['user1','user2','user3']
-print(uuids)
 vector_db.add_documents(documents=documents, ids=uuids)
+
+project_1 = {
+    "entity_type": "project",
+    "required_role": "Backend Engineer",
+    "required_seniority": "mid",
+    "required_experience_years": 2,
+    "required_skills": ["Python", "Django", "PostgreSQL", "Kafka"],
+    "optional_skills": ["Docker", "AWS"],
+    "required_domains": ["FinTech", "Payments"],
+    "summary": "Build and maintain high-throughput backend services for a FinTech payments platform using Python, Django, Kafka, and PostgreSQL."
+  }
+
+document_4 = Document(
+    page_content=json.dumps(project_1)
+)
+vector_db.add_documents(documents=[document_4], ids=["project_1"])
+
+results = vector_db.similarity_search("Give me top 2 resumes for project_1", k=2)
+for result in results:
+    print(result.page_content)
+    print("\n")
