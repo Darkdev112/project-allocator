@@ -21,4 +21,4 @@ def get_context(doc_path,llm,entity_type):
     response_json['summary'] = summary_response.content
     return response_json
 
-get_context('./documents/sample_doc.pdf',get_model(),"resume")
+# get_context('./documents/sample_doc.pdf',get_model(),"resume")
