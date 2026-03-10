@@ -1,0 +1,31 @@
+[
+  {
+    "project_id": "project_dbdd0e4d-bf02-4d5f-b04b-7f807104609f",
+    "entity_type": "project",
+    "required_role": "Human Resources Assistant",
+    "required_seniority": null,
+    "required_experience_years": null,
+    "required_skills": [
+      "Proficient with Microsoft Word and Excel",
+      "General knowledge of employment law and practices",
+      "Able to maintain a high level of confidentiality",
+      "Effective oral and written management communication skills"
+    ],
+    "optional_skills": [
+      "Active participation in strategic planning process, including developing goals, objectives and processes",
+      "How to engage professionally in HR meetings and seminars with other HR professionals in the region",
+      "Gain experience with Human Resources Information system (HRIS) database management and record keeping",
+      "Application of HR law and compliance with governmental regulations"
+    ],
+    "required_domains": [
+      "HR Information Systems",
+      "Employee relations",
+      "Training and development",
+      "Benefits",
+      "Compensation",
+      "Organization development",
+      "Employment"
+    ],
+    "summary": "Human Resources Assistant with HRIS database management, record keeping, employee orientation, training logistics, committee facilitation, safety/welfare reporting, HR law compliance, Microsoft Word, Excel, oral and written communication, confidentiality; experienced in corporate HR; future project: lead a cross\u2011departmental diversity and inclusion training program."
+  }
+]

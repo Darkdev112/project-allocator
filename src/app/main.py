@@ -94,3 +94,5 @@ def get_users(project_summary: str, top_k: int = 5):
             })
 
     return matched_users
+
+print(get_users('Human Resources Assistant with HRIS database management, record keeping, employee orientation, training logistics, committee facilitation, safety/welfare reporting, HR law compliance, Microsoft Word, Excel, oral and written communication, confidentiality; experienced in corporate HR; future project: lead a cross\u2011departmental diversity and inclusion training program.',3))

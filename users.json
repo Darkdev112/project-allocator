@@ -1,0 +1,189 @@
+[
+  {
+    "user_id": "user_eb471fdd-9f6e-4afd-9e85-f56c3f76d025",
+    "entity_type": "user",
+    "role": "Amazon Associate",
+    "seniority": null,
+    "total_experience_years": 5,
+    "primary_skills": [
+      "Cleaning Equipment",
+      "Mathematics",
+      "Deep Sanitation Practices"
+    ],
+    "secondary_skills": [
+      "Kaizen Events",
+      "Gemba walks",
+      "5S",
+      "Kanban system",
+      "UPS orders",
+      "inventory management",
+      "packing",
+      "picking",
+      "shipping",
+      "record keeping"
+    ],
+    "domains": [
+      "Logistics",
+      "Supply Chain",
+      "Warehouse Operations"
+    ],
+    "summary": "Amazon Warehouse Associate with picking, packing, inventory management, cleaning equipment, Kaizen, 5S, Kanban; experienced in e\u2011commerce fulfillment and laboratory inventory; future project: lead a lean\u2011six sigma initiative to boost warehouse throughput."
+  },
+  {
+    "user_id": "user_d4bc6c64-7bab-4e0b-ac48-cf5cfad3e3b3",
+    "entity_type": "user",
+    "role": "Security Guard",
+    "seniority": null,
+    "total_experience_years": 8,
+    "primary_skills": [
+      "Investigation skills",
+      "Safety compliance",
+      "Criminal justice knowledge",
+      "Restraining devices",
+      "Martial arts/Physical combat training"
+    ],
+    "secondary_skills": [],
+    "domains": [],
+    "summary": "Security Guard with Investigation skills, Safety compliance, Criminal justice knowledge, Restraining devices, Martial arts/Physical combat training; experienced in military and defense sectors; future project: lead a threat assessment and response program for a defense contractor."
+  },
+  {
+    "user_id": "user_b25db186-c564-47c8-9a40-2b04553a2b91",
+    "entity_type": "user",
+    "role": "Personal Trainer",
+    "seniority": null,
+    "total_experience_years": 8,
+    "primary_skills": [
+      "Knowledge in Nutrition",
+      "Proficient at sales",
+      "Self-motivated",
+      "Organized",
+      "Energetic and upbeat",
+      "Effective communicator"
+    ],
+    "secondary_skills": [],
+    "domains": [],
+    "summary": "Personal Trainer with Knowledge in Nutrition, Proficient at sales, Self\u2011motivated, Organized, Energetic and upbeat, Effective communicator; experienced in personal and group fitness; future project: develop a virtual fitness coaching platform for high\u2011end clients."
+  },
+  {
+    "user_id": "user_439dde01-5ca2-4da6-84c8-ae129eaf451c",
+    "entity_type": "user",
+    "role": "Video Production Assistant",
+    "seniority": null,
+    "total_experience_years": 3,
+    "primary_skills": [
+      "Call Sheets & Sides",
+      "Adobe Premiere Pro",
+      "Camera Boom",
+      "Light Boom",
+      "Mic Boom",
+      "DaVinci Resolve"
+    ],
+    "secondary_skills": [
+      "Audio editing",
+      "Mixing",
+      "Scriptwriting",
+      "Video editing",
+      "Production acquisition",
+      "Booking",
+      "Green room traffic",
+      "Story research",
+      "Footnotes",
+      "Footage gathering",
+      "Avid non-linear editing system",
+      "Video and audio equipment maintenance",
+      "Vendor repair",
+      "Graphics editing",
+      "Digital assets",
+      "Videography proposals",
+      "Audio and video equipment staging"
+    ],
+    "domains": [
+      "Video Production",
+      "Film",
+      "Television",
+      "Advertising",
+      "Commercials",
+      "Short Films"
+    ],
+    "summary": "Video Production Assistant with Premiere Pro, Avid NLE, audio editing, scriptwriting, call sheets, camera boom, light boom, mic boom, DaVinci Resolve; experienced in commercials and short films; future project: lead post\u2011production for a branded content series."
+  },
+  {
+    "user_id": "user_10c99190-9cf7-4f83-a60e-654850b0b94e",
+    "entity_type": "user",
+    "role": "UX Designer",
+    "seniority": null,
+    "total_experience_years": 7,
+    "primary_skills": [
+      "Adobe Photoshop",
+      "Illustrator",
+      "Sketch",
+      "InVision"
+    ],
+    "secondary_skills": [
+      "HTML5",
+      "CSS",
+      "Javascript"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "summary": "UX Designer with Adobe Photoshop, Illustrator, Sketch, InVision, wireframing, prototyping, usability testing, A/B testing, analytics, HTML5, CSS, JavaScript, strong communication, stakeholder collaboration, problem solving; experienced in financial technology and blockchain; future project: leading a cross\u2011platform redesign of a fintech mobile app to boost user retention."
+  },
+  {
+    "user_id": "user_10ec8bc2-3835-4cf7-a054-c3f981c41f7d",
+    "entity_type": "user",
+    "role": "Travel Agent",
+    "seniority": null,
+    "total_experience_years": 5,
+    "primary_skills": [
+      "Domestic & international travel expertise",
+      "Budgeting & accounting",
+      "Logistical planning",
+      "Itineraries",
+      "Reservations",
+      "Travel Consulting"
+    ],
+    "secondary_skills": [
+      "organization",
+      "time management",
+      "written and verbal communication",
+      "strategic partnership identification and development",
+      "event planning",
+      "travel coordination"
+    ],
+    "domains": [
+      "Travel and Tourism",
+      "Hospitality",
+      "Travel Consulting"
+    ],
+    "summary": "Travel Agent with domestic & international travel expertise, budgeting & accounting, logistical planning, itineraries, reservations, travel consulting, organization, time management, communication; experienced in Travel and Tourism industries; future project: lead a sustainable travel consulting initiative for African destinations."
+  },
+  {
+    "user_id": "user_53bd211c-c28d-4b21-a16d-ba87e6f916c2",
+    "entity_type": "user",
+    "role": "Fashion Designer",
+    "seniority": "Senior",
+    "total_experience_years": 11,
+    "primary_skills": [],
+    "secondary_skills": [],
+    "domains": [],
+    "summary": "Senior Fashion Designer with product design, market research, sketching, technical design, vendor management, leadership, communication; experienced in women\u2019s high\u2011end footwear and accessories; future project: lead a sustainable luxury shoe collection for a top\u2011tier brand."
+  },
+  {
+    "user_id": "user_099c5b88-cbde-4cf1-b117-88ef508eb7cd",
+    "entity_type": "user",
+    "role": "Nutrition Consultant",
+    "seniority": null,
+    "total_experience_years": 3,
+    "primary_skills": [
+      "Food preparation",
+      "Kitchen maintenance",
+      "Kitchen equipment operation",
+      "Food sanitation",
+      "Nutrition"
+    ],
+    "secondary_skills": null,
+    "domains": null,
+    "summary": "Nutrition Consultant with Food preparation, kitchen maintenance, kitchen equipment operation, food sanitation, nutrition, counseling, education; experienced in nutrition services in healthcare and senior living; future project: lead a community nutrition outreach program for underserved seniors."
+  }
+]
