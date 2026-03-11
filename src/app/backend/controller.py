@@ -1,10 +1,10 @@
 from typing import List, Dict, Any
 
-from model import get_model
-from project_db import insert_project
-from user_db import insert_user, get_all_users
-from utilities import get_context
-from vector_db import create_store
+from .model import get_model
+from .project_db import insert_project
+from .user_db import insert_user, get_all_users
+from .utilities import get_context
+from .vector_db import create_store
 
 
 vector_db = create_store()

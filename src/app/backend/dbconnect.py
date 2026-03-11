@@ -1,10 +1,14 @@
 import mysql.connector
 from mysql.connector import MySQLConnection
 
-from config import Config
+from .config import Config
 
 
-def get_connection() -> MySQLConnection:
+def _db_name() -> str:
+    return Config.DB_NAME or "project_allocator"
+
+
+def get_connection(*, include_database: bool = True) -> MySQLConnection:
     """
     Create and return a new MySQL connection using environment variables.
 
@@ -15,20 +19,31 @@ def get_connection() -> MySQLConnection:
     - DB_PASSWORD
     - DB_NAME
     """
-    return mysql.connector.connect(
+    kwargs = dict(
         host=Config.DB_HOST or "localhost",
         port=int(Config.DB_PORT or 3306),
         user=Config.DB_USER or "root",
         password=Config.DB_PASSWORD or "",
-        database=Config.DB_NAME or "project_allocator",
     )
+    if include_database:
+        kwargs["database"] = _db_name()
+    return mysql.connector.connect(**kwargs)
 
 
 def init_db() -> None:
     """
-    Ensure required tables exist: users, projects.
+    Ensure database + required tables exist: users, projects.
     """
-    conn = get_connection()
+    # 1) Ensure the database itself exists.
+    conn = get_connection(include_database=False)
+    cursor = conn.cursor()
+    cursor.execute(f"CREATE DATABASE IF NOT EXISTS `{_db_name()}`")
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+    # 2) Ensure required tables exist.
+    conn = get_connection(include_database=True)
     cursor = conn.cursor()
 
     cursor.execute(

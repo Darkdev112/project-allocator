@@ -2,7 +2,7 @@ import time
 from pinecone import Pinecone, ServerlessSpec
 from langchain_pinecone import PineconeVectorStore 
 from langchain_huggingface import HuggingFaceEmbeddings
-from config import Config
+from .config import Config
 
 def create_store():
     pinecone = Pinecone(api_key=Config.PINECONE_API_KEY)

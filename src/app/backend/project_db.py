@@ -2,7 +2,7 @@ import json
 import uuid
 from typing import List, Dict, Any, Optional
 
-from dbconnect import get_connection
+from .dbconnect import get_connection
 
 
 def _serialize_list(value: Any) -> str:

@@ -1,13 +1,14 @@
 import os
 import tempfile
+import traceback
 from typing import List
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from pydantic import BaseModel
 
-from controller import register_user, register_project, get_users
-from user_db import get_all_users, get_user_by_id
-from project_db import get_project_by_id, get_all_projects
+from .controller import register_user, register_project, get_users
+from .user_db import get_all_users, get_user_by_id
+from .project_db import get_project_by_id, get_all_projects
 
 
 app = FastAPI(title="Project Allocator API")
@@ -74,6 +75,7 @@ async def upload_project_endpoint(file: UploadFile = File(...)):
             "project_id": result["project_id"],
         }
     except Exception as e:
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
     finally:
         if os.path.exists(tmp_path):
