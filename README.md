@@ -27,3 +27,7 @@
 
 ## Architecture
   ![Architecture](architecture.png)
+
+## Run
+ - uvicorn src.app.backend.main:app --reload --host 0.0.0.0 --port 8000 
+ - streamlit run src/app/frontend/streamlit_app.py 
