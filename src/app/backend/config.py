@@ -2,13 +2,22 @@ import os
 from dotenv import load_dotenv
 from typing import Literal
 from pydantic import BaseModel
+
 load_dotenv()
+
 
 class Config:
     PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
     PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME")
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
     HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
+
+    # MySQL configuration
+    DB_HOST = os.getenv("DB_HOST")
+    DB_PORT = os.getenv("DB_PORT")
+    DB_USER = os.getenv("DB_USER")
+    DB_PASSWORD = os.getenv("DB_PASSWORD")
+    DB_NAME = os.getenv("DB_NAME")
 
 class ResumeResponse(BaseModel):
     entity_type:Literal["user"]
